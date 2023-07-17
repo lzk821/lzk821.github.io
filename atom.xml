@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://lzk821.github.io</id>
+    <title>liash</title>
+    <updated>2023-07-17T10:04:44.734Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://lzk821.github.io"/>
+    <link rel="self" href="https://lzk821.github.io/atom.xml"/>
+    <subtitle>&lt;hr&gt;
+&lt;a href=https://kzurl15.cn/2QvHL&gt;欢迎来到本站，强烈建议将该网站添加书签或者主页&lt;/a&gt;
+&lt;hr&gt;</subtitle>
+    <logo>https://lzk821.github.io/images/avatar.png</logo>
+    <icon>https://lzk821.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2023, liash</rights>
+    <entry>
+        <title type="html"><![CDATA[python第二阶段第一章]]></title>
+        <id>https://lzk821.github.io/post/python-di-er-jie-duan-di-yi-zhang/</id>
+        <link href="https://lzk821.github.io/post/python-di-er-jie-duan-di-yi-zhang/">
+        </link>
+        <updated>2023-07-14T02:58:20.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[python柱状图]]></title>
+        <id>https://lzk821.github.io/post/python-zhu-zhuang-tu/</id>
+        <link href="https://lzk821.github.io/post/python-zhu-zhuang-tu/">
+        </link>
+        <updated>2023-07-13T04:38:55.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[python第十章]]></title>
+        <id>https://lzk821.github.io/post/python-di-shi-zhang/</id>
+        <link href="https://lzk821.github.io/post/python-di-shi-zhang/">
+        </link>
+        <updated>2023-07-12T05:37:58.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Python第九章]]></title>
+        <id>https://lzk821.github.io/post/python-di-jiu-zhang/</id>
+        <link href="https://lzk821.github.io/post/python-di-jiu-zhang/">
+        </link>
+        <updated>2023-07-12T01:06:34.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Python第八章]]></title>
+        <id>https://lzk821.github.io/post/python-di-ba-zhang/</id>
+        <link href="https://lzk821.github.io/post/python-di-ba-zhang/">
+        </link>
+        <updated>2023-07-11T06:50:26.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Python第七章]]></title>
+        <id>https://lzk821.github.io/post/python-di-qi-zhang/</id>
+        <link href="https://lzk821.github.io/post/python-di-qi-zhang/">
+        </link>
+        <updated>2023-07-11T05:56:22.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ASCII码表]]></title>
+        <id>https://lzk821.github.io/post/ascii-ma-biao/</id>
+        <link href="https://lzk821.github.io/post/ascii-ma-biao/">
+        </link>
+        <updated>2023-07-11T05:49:27.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[python第六章]]></title>
+        <id>https://lzk821.github.io/post/python-di-liu-zhang/</id>
+        <link href="https://lzk821.github.io/post/python-di-liu-zhang/">
+        </link>
+        <updated>2023-07-04T13:09:55.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[python第五章]]></title>
+        <id>https://lzk821.github.io/post/python-di-wu-zhang/</id>
+        <link href="https://lzk821.github.io/post/python-di-wu-zhang/">
+        </link>
+        <updated>2023-07-04T04:19:34.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[python第四章]]></title>
+        <id>https://lzk821.github.io/post/python-di-si-zhang/</id>
+        <link href="https://lzk821.github.io/post/python-di-si-zhang/">
+        </link>
+        <updated>2023-07-03T09:01:37.000Z</updated>
+    </entry>
+</feed>

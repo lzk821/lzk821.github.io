@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html id="bg">
+
+<head>
+    <meta charset="utf-8" />
+<!--
+    * @Theme Card
+    * @Author admin@itjoker.cn
+    * @Link https://blog.itjoker.cn
+-->
+
+<title>
+    liash
+</title>
+<!--[if lt IE 9]><script src="//cdn.bootcss.com/html5shiv/r29/html5.js"></script><![endif]-->
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel="dns-prefetch" href="https://fastly.jsdelivr.net">
+<meta name="author" content="liash">
+<meta name="description" content="<hr>
+<a href=https://kzurl15.cn/2QvHL>欢迎来到本站，强烈建议将该网站添加书签或者主页</a>
+<hr>">
+<meta name="keywords" content="">
+<meta name="gridea-theme" content="Card">
+<meta name="spider" content="https://nmsl.sbjxw.网址">
+<meta name="UpdateTime" content="1689588225439">
+<script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/jquery@3.4.1.min.js"></script>
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://fastly.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/Card/prism.min.js"></script>
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/css/Card/prism.min.css" />
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.css">
+<script src="https://fastly.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/katex@0.10.0-beta/dist/contrib/auto-render.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
+<!--<script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/js/Card/script.min.js"></script>
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/css/Card/main.min.css" />-->
+<script src="https://lzk821.github.io/media/js/script.min.js"></script>
+<link rel="stylesheet" href="https://lzk821.github.io/media/css/main.min.css" />
+<link rel="stylesheet" href="https://lzk821.github.io/styles/main.css" />
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/css/Card/iconfont.css" />
+<!--link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_410989_wuhl0k5ojvf.css" /-->
+<link href="https://fastly.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/js/love.min.js"></script>
+<script src="https://cdn1.lncld.net/static/js/av-min-1.5.0.js"></script>
+<script>
+    $().ready(
+        function() {
+            if (window.localStorage.getItem('first_visit') != 1) {
+                window.localStorage.setItem('theme', window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                window.localStorage.setItem('first_visit', 1);
+            }
+            var themeIcon = document.getElementById("themeIcon");
+            var currentTheme = window.localStorage.getItem('theme');
+            if (currentTheme == 'dark') {
+                imgList = document.getElementsByTagName('img');
+                for (let i = 0; i < imgList.length; i++) {
+                    imgList[i].style.cssText = mediaCssText;
+                }
+                document.documentElement.style.cssText = cssText;
+                document.getElementsByClassName('card-bg')[0].style.cssText = mediaCssText;
+                themeIcon.classList.remove('Card-moon');
+                themeIcon.classList.add('Card-sun');
+            } else {
+                imgList = document.getElementsByTagName('img');
+                for (let i = 0; i < imgList.length; i++) {
+                    imgList[i].style.cssText = '';
+                }
+                document.documentElement.style.cssText = '';
+                document.getElementsByClassName('card-bg')[0].style.cssText = '';
+                document.getElementsByTagName('html')[0].setAttribute('id', 'bg');
+                themeIcon.classList.remove('Card-sun');
+                themeIcon.classList.add('Card-moon');
+            }
+        }
+    )
+</script>
+
+    <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/hit-kounter-lc-0.3.0.js"></script>
+    
+        
+            <script>
+                (function() {
+                    var bp = document.createElement('script');
+                    var curProtocol = window.location.protocol.split(':')[0];
+                    if (curProtocol === 'https') {
+                        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+                    } else {
+                        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+                    }
+                    var s = document.getElementsByTagName("script")[0];
+                    s.parentNode.insertBefore(bp, s);
+                })();
+            </script>
+            
+                    <style>
+                        .Card-certify {
+                            color: #0091e4 !important;
+                        }
+                        
+                        #foot {
+                            color: #666666;
+                        }
+                        
+                        #menu-item:hover {
+                            border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+                            border-bottom-color: rgba(0, 0, 0, .6);
+                        }
+                        
+                        .gray {
+                            -webkit-filter: grayscale(100%);
+                            /* webkit */
+                            -moz-filter: grayscale(100%);
+                            /*firefox*/
+                            -ms-filter: grayscale(100%);
+                            /*ie9*/
+                            -o-filter: grayscale(100%);
+                            /*opera*/
+                            filter: grayscale(100%);
+                            filter: progid: DXImageTransform.Microsoft.BasicImage(grayscale=1);
+                            filter: gray;
+                            /*ie9- */
+                        }
+                        
+                        .lite-item,
+                        #header {
+                            opacity: 1;
+                        }
+                        
+                        .lite-item {
+                            background-color: #fafafa;
+                        }
+                        
+                        #btnStyle:hover {
+                            transition: all .3s ease;
+                            /*color: #fff;*/
+                            /*background-color: #6b6b6b;*/
+                            background-color: #eaeaea;
+                            /*#0092ee*/
+                            /*linear-gradient( rgb(138, 160, 255) 30%, rgb(90, 140, 250) 70%);*/
+                        }
+                        
+                        #btnStyle {
+                            /*background-color: #efefef;*/
+                            font-size: 14px;
+                            transition: all .3s ease;
+                        }
+                        
+                        .link_a:hover {
+                            margin-top: 10px;
+                            margin-bottom: 10px;
+                            color: #fff;
+                            border-left: 8px solid #6b6b6b;
+                            padding: 5px;
+                            transition: all .3s ease;
+                        }
+                        
+                        html {
+                            width: 100%;
+                            height: 100%;
+                            background-attachment: fixed;
+                            background-repeat: no-repeat;
+                        }
+                    </style>
+</head>
+
+<body>
+    <header id="header">
+
+    <div id="pc-menu">
+        <a id="menu-bar" class="Card Card-menu"></a>
+        <a id="menu-title" href="https://lzk821.github.io">
+            liash
+        </a>
+        <nav id="menu-main" class="menu-main">
+            <ul>
+                <li id="menu-item" class="menu-item">
+                    <div id="tp-weather-widget"></div>
+                </li>
+                
+                    <li id="menu-item" class="menu-item">
+                        <a href="https://lzk821.github.io/tags">
+                            ❦分类查找
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="/archives">
+                            ❦所有内容
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="https://kzurl15.cn/2QvHL">
+                            ❦省钱点这
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="https://lzk821.github.io/post/homepage">
+                            ❦关于本站
+                        </a>
+                    </li>
+                    
+            </ul>
+        </nav>
+        <form id="gridea-search-form" class="searchform" data-update="1689588225439" action="/search/index.html">
+            <i class="Card Card-search"></i>
+            <input id="s" class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+        </form>
+    </div>
+    <div id="mobile-menu">
+        <form id="gridea-search-form" class="mobile-searchform" data-update="1689588225439" action="/search/index.html">
+            <i class="Card Card-search"></i>
+            <input id="s" class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+        </form>
+        <nav class="menu">
+            <ul style="list-style: none;">
+                
+                    <li class="page_item page-item-2">
+                        <a href="https://lzk821.github.io/tags">
+                            ❦分类查找
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="/archives">
+                            ❦所有内容
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="https://kzurl15.cn/2QvHL">
+                            ❦省钱点这
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="https://lzk821.github.io/post/homepage">
+                            ❦关于本站
+                        </a>
+                    </li>
+                    
+            </ul>
+        </nav>
+    </div>
+    <a id="theme-btn" class="theme-btn" onclick="App.changeTheme()"><i id="themeIcon" class="Card Card-moon"></i></a>
+</header>
+        <div id="main">
+            <div id="main-part">
+                <div class="lite-item">
+                    <article class="post post-type real-post">
+                        <header class="post-type-header">
+                            
+                                    <div class="thumbnail-link" style="background-color: transparent;"></div>
+                                    
+                                        <div class="thumbnail-shadow">
+                                            <h1 class="post-title">
+                                                马克思主义基本原理（复习题）
+                                            </h1>
+                                            <div class="post-info">
+                                                <span class="post-category"><i class="Card Card-novel"></i>
+                                        
+                                            <span onclick="javascript:top.location='https://lzk821.github.io/tag/jQOtpKCN8/'">复习资料</span>
+                                                
+                                                    </span>
+                                                    <span class="post-view">
+                                                    
+                                                        &nbsp;•&nbsp;
+                                                        <span class="post-meta-item-text"><i class="Card Card-view"></i>&nbsp;阅读量&nbsp;</span>
+                                                        <span data-hk-page="current"> - </span>
+                                                        
+                                                            </span>&nbsp;•&nbsp;
+
+                                                            <span class="post-readtime">阅读时间:
+                                            9.0分</span>
+                                                            <span class="post-edit"></span></div>
+                                        </div>
+                                        <div class="post-relative">
+                                            <img alt="liash" src="https://lzk821.github.io/images/avatar.png?v=1689588225439" srcset="https://lzk821.github.io/images/avatar.png?v=1689588225439" class="avatar avatar-100 photo" width="100" height="100">
+                                            <span class="post-type-author"><a href="https://lzk821.github.io" title="由liash发布" rel="author">liash<i class="Card Card-certify"></i></a></span>
+                                            <span class="post-publish"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;2023-02-10</span>
+                                        </div>
+                        </header>
+                        <div class="post-main post-type-main">
+                            <div class="post-content">
+                                <div class="post-content-real">
+                                    <p><strong>1.第一次阐述历史唯物主义的基本观点的著作是哪一个？</strong><br>
+《德意志意识形态》<br><br>
+<strong>2.马克思主义的鲜明特征是什么？</strong><br>
+科学性，革命性，实践性，人民性和发展性<br><br>
+<strong>3.物质的根本属性是什么？</strong><br>
+运动是物质的根本属性，是物质的存在方式。<br><br>
+<strong>4.唯物辩证法的实质和核心是什么？</strong><br>
+唯物辩证法的实质和核心都是对立统一规律。<br><br>
+<strong>5.社会历史观的基本问题是什么？</strong><br>
+社会存在和社会意识的关系问题<br><br>
+<strong>6.在生产关系当中起决定性作用的是什么？</strong><br>
+生产资料所有制<br><br>
+<strong>7.剩余价值是啥？</strong><br>
+根据马克思的理论，剩余价值是指在剥削制度下，被统治阶级剥削的，<br>
+劳动者所生产的新价值中，劳动创造的价值和劳动报酬之间的差额，<br>
+即“<em>由劳动者创造的被资产阶级无偿占有的劳动”</em><br><br>
+<strong>8.在垄断资本主义阶段占统治地位的资本是什么？</strong>、<br>
+金融资本在垄断资本主义阶段占统治地位<br><br>
+<strong>9.资本主义经济危机的实质是‘生产相对过剩’</strong><br><br>
+<strong>10.联系的特点有哪些？</strong><br>
+<strong>~普遍性</strong>时时有联系，处处有联系。联系普遍存在，每个事物都通过中介<br>
+和其他事务联系，又同时是其他事物联系的中介。<br>
+<strong>~客观性</strong>联系是客观存在的，不因主观转移<br>
+<strong>~多样性</strong>联系的存在是多样的，例如有直接联系和间接联系<br>
+<strong>~条件性</strong>在一定条件下产生联系<br><br>
+<strong>11.商品价值量跟社会必要劳动之间成正⽐</strong><br><br>
+<strong>12.商品的价值量跟社会劳动⽣产率成反⽐</strong><br><br>
+<strong>13.发达资本主义国家采取的缓和劳资关系的激励制度包括哪些 ?</strong><br>
+① 职⼯参与决策制度 ② 终身雇佣制度 ③ 职⼯持股计划 <br><br>
+<strong>14 .⻢克思主义产⽣的标志是 《 共产党宣⾔ 》</strong><br>
+1848 年发表的 《共产党宣⾔ 》 是⻢克思主义诞⽣的标志性著作<br><br>
+<strong>15 .⽣产关系当中人与⼈之间的关系是物质（范畴关系）√</strong><br>
+⽣产关系就是⼈跟⼈之间的物质关系 <br><br>
+<strong>16.啥叫辩证否定 ?</strong><br>
+辩证否定就是否定之否定<br>
+三⼤规律 : ① 对立统一 ②质量互变 ③否定之否定<br>
+① 事物⽭盾规律 ② 质量互变规律  ③ 否定之否定规律<br><br>
+<strong>17.什么叫货币 ?</strong><br>
+是在⻓期交换过程中形成的固定的充当⼀般等价物的商品<br>
+<strong>职能 : <strong>价职尺度 、 流通⼿段 、 储藏⼿段 , ⽀付⼿段和世界货币 <br><br>
+<strong>18 .什么是共产主义 ?</strong><br>
+⼀种未来的社会制度和社会形态在这种理论指导下进⾏的社会运动<br>
+或实践⼀种科学的理论<br><br>
+<strong>19 .⽭盾的普遍性和特殊性之间的关系 ?</strong>  （⼀定条件下相互转化 ）<br>
+⽭盾的普遍性即⽭盾的共性 ，⽭盾的特殊性即⽭盾的个性 。 ⽭盾的共性是 ⽆条件的 绝对时的<br>
+⽭盾的个性是 有条件的 相对的 。 任何现实存在的事物⽭盾都是共性和个性的有机统⼀ ,<br>
+共性属于个性上中 , 没有离开个性的共性 , 也没有离开共性的个性<br>
+<strong>⽭盾的普遍性和特殊性是辩证统⼀的关系</strong><br><br>
+<strong>20.根据矛盾的特殊性我们的⽅法论有哪些 ?</strong><br>
+<strong>原理 : <strong>⽭盾的特殊性 , 是指⽭盾着的事物及其每⼀个侧⾯各有其特点 。<br>
+它主要有三种情形:<br>
+① 不同的事物有不同的⽭盾 ,这些不同的⽭盾构成了⼀事物区别于他事物的特殊本质<br>
+② 同⼀事物在发展的不同过程和阶段上有不同的⽭盾<br>
+③ 同⼀事物中的不同⽭盾 , 同⼀⽭盾的两个不同⽅⾯也各有其特殊性。<br>
+<strong>⽅法论 : <strong>坚持具体问题具体分析<br><br>
+<strong>21 .什么是物质资料⽣产⽅式 ? 为什么说物质资料的⽣产⽅式是社会发展的决定性因素 ?</strong><br>
+物质资料⽣产⽅式是指⽣产⼒和⽣产关系的统⼀ ,⽣产⽅式是指社会⽣活所必需的物质资料的<br>
+谋得⽅式 ,在⽣产过程中形成的⼈与⾃然界之间和⼈与⼈之间的相互关系的体系 ,<br>
+物质资料的⽣产⽅式是社会发展的决定性因素 , 原因有三 :<br>
+<strong>首先</strong>物质⽣产活动及⽣产⽅式是⼈类社会赖以存在和发展的基础 , 是⼈类其他<br>
+⼀切活动的⾸要前提<br>
+<strong>其次</strong> , 物质⽣产活动及⽣产⽅式决定着社会的结构 、性质和⾯貌 , 制约着⼈们的<br>
+经济⽣活 、政治⽣活和精神⽣活等全部社会⽣活<br>
+<strong>最后</strong> , 物质⽣产活动及⽣产⽅式的变化发展决定整个社会历史的变化发展 ,<br>
+决定社会形态从低级向⾼级的更替和发展 。<br><br>
+<strong>22 .怎么样去理体商品二因素的矛盾来⾃于劳动⼆重性的矛盾?</strong><br>
+① 商品⼆因素是由⽣产商品的劳动⼆重性决定的 。 ⽣产商品的劳动 , ⼀⽅⾯<br>
+是具体劳动 , 另⼀⽅⾯⼜是抽象劳动 。 具体劳动创造商品的使⽤价值 , 抽象劳<br>
+动形成商品的价值 。<br>
+② 具体劳动反映⼈与⾃然的关系 , 是⼀个历史范畴 。 具体劳动和抽象劳动是商<br>
+品⽣产者同一劳动的两个⽅⾯ 。 ⽣产商品的劳动既是具体劳动创造使⽤价值的过<br>
+程 , ⼜是抽象劳动形成价值的过程 ,具体劳动反映⼈和⾃然的关系 ,是劳动的<br>
+⼀般属性 , 各种具体劳动在性质上是不同的 , 在量上是⽆法⽐较的; 抽象劳动<br>
+在性质上是没有差别时 , 在量上可以相互⽐较 。<br>
+③ 劳动的二重性决定着商品的⼆重性 ,商品是使⽤价值和价值的⽭盾统⼀体 , 体现<br>
+着⽣产商品的具体劳动和抽象劳动的对立统⼀ 。<br><br>
+<strong>23 . ⻢克思主义的两⼤发现使社会主义由空想变成了科学 . 那么这两⼤发现是指什么 ?</strong><br>
+<strong>唯物史观            剩余价值学说</strong><br><br>
+<strong>24.真理的本质属性是指什么 ?</strong><br>
+客观性 <br><br>
+<strong>25 .⼈类全部社会⽣活的本质是实践</strong><br><br>
+<strong>26 .什么是社会意识形态 ? 社会意识形态包括哪些内容 ？</strong><br>
+社会意识形态 :⾼⽔平⾼层次的社会意识 ,是⼈们系统化的 , ⾃觉的 ,有确定规范<br>
+的社会意识<br>
+社会意识形态包括:哲学，艺术 ，宗教 , 道德 ， 政治 , 法律思想<br>
+语言⽂字 ，形式逻辑 。<br>
+前六个属于意识形态 , 后两个属于⾮意识形态<br><br>
+<strong>27 .啥是商品⼆因素 ?</strong><br>
+商品二因素 : 商品同时具有使⽤价值和价值<br><br>
+<strong>28 . ⻢克思主义的鲜明特征有哪些 ?</strong><br>
+科学性 ⾰命性 实践性 ⼈⺠性和发展性<br><br>
+<strong>29 . 什么是物质 ?</strong><br>
+“物质是标志客观实在的哲学范畴 , 这种客观实在是⼈经过感觉感知的 , 它不<br>
+依赖于我们的感觉⽽存在为我们的感觉所复写，摄影，反映 ”<br><br>
+<strong>30 .什么是经济基础 ?</strong><br>
+经济基础即社会的经济结构 , 是指⼀定社会中占统治地位的⽣产关系的总和 。<br>
+经济基础属于社会的物质关系 , 是⼀定社会中占统治地位的⽣产关系 。<br><br>
+<strong>31.什么是资本 ?</strong><br>
+资本是指资本家占有，并⽤作剥削⼿段的⽣产资料和货币 。<br><br>
+<strong>32 . 学会区分动物的本能还是⼈的实践 **<br>
+⼈的活动是有⽬的的，这是⼈的实践活动与动物本能活动的根本区别 <br><br>
+<strong>33 实践的概念和它的特征</strong><br>
+实践是⼈们能动的改造世界的社会性的物质活动<br>
+实践的</strong>特征</strong>是 : ⾃觉能动性，社会历史性，物质性 .<br><br>
+<strong>34 为什么说实践决定了认识</strong><br>
+所谓实践决定认识，就是体现在四个⽅⾯.实践是认识的</strong>来源</strong>，实<br>
+践是认识的</strong>⽬的</strong>，实践是认识的</strong>动⼒**，实践是认识的<strong>决定性因素</strong>。<br><br>
+<strong>35. ⽭盾的普遍性和特殊性的辩证关系的原理。</strong><br>
+① 相互区别 : ⽭盾的普遍性是事物的共性 , 是⽆条件的即绝对的<br>
+⽭盾的特殊性是事物的个性 。<br>
+共性⽐个性深刻 ,个性⽐共性丰富 。<br>
+② 相互联系 :任何事物都是共性和个性的统⼀<br>
+共性寓于 (存在于 )个性之中 ,⼀般只在个别中存在 , 只能经过个别⽽存在 ,<br>
+任何个别都是⼀般的。个性体现共性，都同共性相联系⽽存在<br><br>
+<strong>36. 我们为什么要把⻢克思主义基本原理跟中国具体实际相结合</strong><br>
+<strong>通过⽭盾的普遍性和特殊性的辩证关系的原理去分析</strong><br>
+中国是社会主义国家 , 具有社会主义的共性 ,所以符合⻢克思主义基本原理<br>
+中国社会主义是有中国特⾊的 ,所以要与中国具体实际相结合 .<br><br>
+<strong>37.⻢克思主义最崇⾼的社会理想他的必然趋势⼀定是实现共产主义</strong><br><br>
+<strong>38. 没有使⽤价值的东⻄⼀定没有价值。这句话是对的。</strong><br></p>
+<p><strong>39.  通过绝对真理和相对真理的这个原理去分析为什么要发展⻢克思主义。为什么我们既要坚持⻢克思主义⼜要发展⻢克思主义。</strong><br>
+真理是绝对的 ,是指真理是对客观规律的正确反映 , ⻢克思主义是⼀种正确<br>
+的世界观和⽅法论 , 这⼀点是不容置疑的 。 所以 , 搞社会主义现代化建设 , 我<br>
+们必须坚持⻢克思主义 。 同时真理⼜是相对的 ,也就是说随着⼈们认识世界的<br>
+深⼊ , ⼈们对事物的以识也会不断地趋向于更正确 , 所以真理也不是⼀成不<br>
+变的。真理也会随着实践的发展⽽发展 , 所以 . 我们不能固守 19 世纪⻢克思主义<br>
+的那些论断 , ⽽是以⻢克思主义的⽴场原则和⽅法为指导 ,结合中国国情来运⽤<br>
+⻢克思主义 , 在运⽤⻢克思主义的过程中 ,也要不断地反思总结 ,并把反思总<br>
+结的结论理伦化系统化 , 形成中国化的⻢克思主义 , 这样发展创新⻢克思主义 ,<br>
+⻢克思主义才会具有⽣命⼒ ,才能正确指导中国的改⾰和建设。<br><br>
+<strong>40.空想社会主义是科学社会主义产⽣的历史条件 , 是科学社会主义的思想来源 。</strong><br><br>
+<strong>41.绝对剩余价值和相对剩余价值怎么算 ? 剥削率是多少 ？</strong><br><br>
+<pr></p>
+<blockquote>
+<p><a href="https://kzurl15.cn/2QvHL">省钱优惠点这里,欢迎大家关注微信公众号 嗨省点</a></p>
+</blockquote>
+
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="post-footer">
+                            <div class="post-copyright">
+                                作者:
+                                liash<br>永久链接:
+                                    <a href="https://lzk821.github.io/post/ma-ke-si-zhu-yi-ji-ben-yuan-li-fu-xi-ti/" title="马克思主义基本原理（复习题）">
+                                        https://lzk821.github.io/post/ma-ke-si-zhu-yi-ji-ben-yuan-li-fu-xi-ti/
+                                    </a><br> 协议: MIT License
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <style>
+                    .prev:hover {
+                        color: #2d96bd;
+                        text-decoration: none;
+                        text-align: center;
+                        transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+                    }
+                    
+                    .next:hover {
+                        color: #2d96bd;
+                        text-decoration: none;
+                        text-align: center;
+                        transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+                    }
+                </style>
+                <div class="lite-item nearby-article">
+                    
+                        <div class="nearby-article-left" style="padding: 10px;">
+                            <a class="prev" rel="prev" href="https://lzk821.github.io/post/jin-zhan-bi-du/">
+                                <i class="fa fa-chevron-left"></i>
+                                进站必读
+                            </a>
+                        </div>
+                        
+                            
+                </div>
+                <!--Share-->
+                <span style="margin-right:15px">
+    <i class="post-share"></i>
+    <span>&#x5206;&#x4EAB;:</span>
+                <a title="QR 码" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://lzk821.github.io/post/ma-ke-si-zhu-yi-ji-ben-yuan-li-fu-xi-ti/"><i class="fa fa-qrcode"></i></a>
+                <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://lzk821.github.io/post/ma-ke-si-zhu-yi-ji-ben-yuan-li-fu-xi-ti/&sharesource=qzone&title=马克思主义基本原理（复习题）&pics=https://lzk821.github.io/images/avatar.png?v=1689588225439&summary="><i class="fa fa-qq"></i></a>
+                <a title="新浪微博" target="_blank" href="https://service.weibo.com/share/share.php?url=https://lzk821.github.io/post/ma-ke-si-zhu-yi-ji-ben-yuan-li-fu-xi-ti/&sharesource=weibo&title=马克思主义基本原理（复习题） + " - " + &pic="https://lzk821.github.io/images/avatar.png?v=1689588225439"><i class="fa fa-weibo "></i></a>
+                </span>
+                
+                                            
+                                                <script type="application/javascript" src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>
+<div id="vlaine-comment"></div>
+<script type="application/javascript">
+    new Valine({
+        el: '#vlaine-comment',
+        appId: 'VfLdmb0Zk5czgecxphB6z3NH-gzGzoHsz',
+        appKey: '6xLAwYnIrhTo7vzVPBni5JL7',
+        pageSize: 5,
+        avatar: 'mp',
+        placeholder: '看都看了，不妨评论一下',
+        visitor: false,
+        highlight: false,
+        recordIP: true,
+    })
+</script>
+                                                    
+            </div>
+            <div id="sidebar">
+    <ul>
+        
+            <li class="lite-item">
+                <header class="lite-item-header">
+                    <h3 class="lite-item-title"><i class="Card Card-hitokoto"></i>&nbsp;&#x4E00;&#x8A00;</h3>
+                </header>
+                <div class="textwidget">
+                    <p>
+                        <b id="hitokoto"></b>
+                    </p>
+                </div>
+            </li>
+            
+                <!--
+                <li class="lite-item">
+                    <header class="lite-item-header">
+                        <h3 class="lite-item-title"><i class="Card Card-tags">&#x6807;&#x7B7E;</i></h3>
+                    </header>
+                    <div class="textwidget">
+                        
+                            <a href="" class="tag-cloud-link " style="font-size: 12px;margin: 5px; padding: 2px;">
+                                <i class="fa fa-tags" aria-hidden="true"></i>
+                            </a>
+                            
+                    </div>
+                </li>-->
+                <li class="lite-item">
+                    <header class="lite-item-header">
+                        <h3 class="lite-item-title"><i class="Card Card-tags">&#x6807;&#x7B7E;</i></h3>
+                    </header>
+                    <div class="textwidget">
+                        <div id='tags' style="height: auto;width: 360;"></div>
+                        <script src="https://lzk821.github.io/media/js/svg3dtagcloud.min.js"></script>
+                        <script>
+                            $(document).ready(function() {
+                                var entries = ([
+                                    
+                                     {
+                                        label: '🏷python',
+                                        url: 'https://lzk821.github.io/tag/P5dC4YMfz/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷编程',
+                                        url: 'https://lzk821.github.io/tag/BFZRgdTN2/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷羊毛',
+                                        url: 'https://lzk821.github.io/tag/ZdtPt1Y3x/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷学习',
+                                        url: 'https://lzk821.github.io/tag/ONEdiIdMS/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷复习资料',
+                                        url: 'https://lzk821.github.io/tag/jQOtpKCN8/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷实用网站',
+                                        url: 'https://lzk821.github.io/tag/8eqbyx0y6/',
+                                        target: '_button'
+                                    }
+                                    
+                                    
+                                ]);
+                                var settings = {
+                                    entries: entries, //数据
+                                    width: 300, //宽度
+                                    height: 300, //高度
+                                    radius: '50%',
+                                    radiusMin: 50,
+                                    bgDraw: false, //是否显示背景
+                                    bgColor: '#fff', //背景颜色
+                                    opacityOver: 1.00,
+                                    opacityOut: 0.05,
+                                    opacitySpeed: 6,
+                                    fov: 360,
+                                    speed: 0.3, //旋转的速度
+                                    fontFamily: 'Oswald, Arial, sans-serif',
+                                    fontSize: '18', //默认字体大小
+                                    fontColor: '#666', //默认字体颜色
+                                    fontWeight: 'normal', //bold
+                                    fontStyle: 'normal', //italic 
+                                    fontStretch: 'normal', //wider, narrower, ultra-condensed, extra-condensed, condensed, semi-condensed, semi-expanded, expanded, extra-expanded, ultra-expanded
+                                    fontToUpperCase: true,
+                                    tooltipFontFamily: 'Oswald, Arial, sans-serif',
+                                    tooltipFontSize: '16',
+                                    tooltipFontColor: 'red',
+                                    tooltipFontWeight: 'normal', //bold
+                                    tooltipFontStyle: 'normal', //italic 
+                                    tooltipFontStretch: 'normal', //wider, narrower, ultra-condensed, extra-condensed, condensed, semi-condensed, semi-expanded, expanded, extra-expanded, ultra-expanded
+                                    tooltipFontToUpperCase: false,
+                                    tooltipTextAnchor: 'left',
+                                    tooltipDiffX: 0,
+                                    tooltipDiffY: 5
+
+                                };
+
+                                //var svg3DTagCloud = new SVG3DTagCloud( document.getElementById( 'holder'  ), settings );
+                                $('#tags').svg3DTagCloud(settings);
+                            });
+                        </script>
+                    </div>
+                </li>
+                
+                    <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/APlayer.min.js"></script>
+                    <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+                    <div id="player"></div>
+                    
+                        <li class="lite-item">
+                            <header class="lite-item-header">
+                                <h3 class="lite-item-title">
+                                    &#x1F3B5;&#x97F3;&#x4E50;
+                                </h3>
+                            </header>
+                            <div class="textwidget">
+                                <p>
+                                    <div id="playerbox"></div>
+                                </p>
+                            </div>
+                        </li>
+                        
+                            <script>
+                                function LoadPlayer() {
+                                    var music_array = [];
+                                    
+                                    music_array.push({
+                                        name: '若相惜',
+                                        url: 'http://music.163.com/song/media/outer/url?id=363017.mp3',
+                                        artist: 'kingstar',
+                                        cover: 'http://p1.music.126.net/_RVAT4U3uaOaA5SbjMyElg==/116548232557441.jpg?param=130y130http://p1.music.126.net/_RVAT4U3uaOaA5SbjMyElg==/116548232557441.jpg?param=130y130',
+                                    });
+                                    
+                                    
+                                    const ap = new APlayer({
+                                        container: document.getElementById('playerbox'),
+                                        audio: music_array
+                                    });
+                                    
+                                }
+                                LoadPlayer();
+                            </script>
+                            
+                                
+                                    
+                                        
+                                            <li class="lite-item">
+                                                <header class="lite-item-header">
+                                                    <h3 class="lite-item-title">
+                                                        关于本站
+                                                    </h3>
+                                                </header>
+                                                <div class="textwidget">
+                                                    <div id="textwidget-box" style="width:100%; height:auto;">
+                                                        <a href = "https://kzurl15.cn/2QvHL"><center>首先欢迎你来到本站，强烈建议将该网站添加书签或者主页</center>  <center>我的微信公众号：嗨省点</center><br/> <center>网购，点外卖，买票都可以使用。最主要的是可以防走丢</center> <center>小程序（保存至相册用微信扫码）：</center> <center><img src="https://raw.githubusercontent.com/lzk821/photo/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230210165025.jpg" width="300"/></center><br/><center>如果以上操作你都懒得弄，那就直接点击这句话也是可以的</center> <center>🍕我会在网站上分享一些实用的软件和教程，或者一些学习资料。</center></ a>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            
+                                            <li class="lite-item">
+                                                <header class="lite-item-header">
+                                                    <h3 class="lite-item-title">
+                                                        公告栏
+                                                    </h3>
+                                                </header>
+                                                <div class="textwidget">
+                                                    <div id="textwidget-box" style="width:100%; height:auto;">
+                                                        如果有什么问题请直接留言至《进站必读》，看到后我会回复。</br>搜索功能目前有问题，建议直接点顶部分类查看进行相关信息检索。</br>目前想到的就这么多......</br>如果有急事可以加微信LZKX0808,注明来意。
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            
+                                                
+                                                    <li class="lite-item">
+                                                        <header class="lite-item-header">
+                                                            <h3 class="lite-item-title">&#x1F468;&#x200D;&#x1F4BB;&#x53CB;&#x94FE;</h3>
+                                                        </header>
+                                                        <div class="textwidget">
+                                                            
+                                                                
+                                                                    <p onclick="javascript:top.location='https://5v7x405771.goho.co/'"><span class="link_a"><a href="https://5v7x405771.goho.co/" alt="我的网站 ">我的网站 -我的正式网站，由于没钱购买服务器所以采用了内网穿透，域名无法绑定所以放在友链里</a></span></p>
+
+                                                                    
+                                                                    <p onclick="javascript:top.location=''"><span class="link_a"><a href="" alt=" "> -</a></span></p>
+
+                                                                    
+                                                                        
+                                                        </div>
+                                                    </li>
+    </ul>
+</div>
+        </div>
+
+</body>
+<footer id="foot">
+    <a class="back-to-top" href="#"><i class="Card Card-top" ></i><span class="back-to-top-text">0%</span></a>
+    <div class="copyright">
+        <a href="https://kzurl15.cn/2QvHL" target="_blank">省钱点这里，让你的生活更精彩！</a>
+            
+                    
+
+                        <div style="font-size:12px">
+                            
+                                        已经建站 <b id='build_time'></b>
+                        </div>
+                        <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/time.min.js"></script>
+                        <script>
+                            buildTime = '2023.2.10'
+                            setInterval(show_date_time, 1000, buildTime);
+                        </script>
+                        
+                            <a href="https://lzk821.github.io">
+                                点此返回主页
+                            </a>&nbsp;|&nbsp; &#x7248;&#x6743;&#x6240;&#x6709; &copy;
+                            <script>
+                                var date = new Date();
+                                data2 = new Date(buildTime.replace(/-/g, "/"));
+                                nowYear = date.getFullYear().toString()
+                                buildYear = data2.getFullYear().toString();
+                                if (buildYear == nowYear) {
+                                    document.write('<span class="my-face">' + nowYear + '</span>');
+                                } else {
+                                    document.write(buildYear + '-<span class="my-face">' + nowYear + '</span>');
+                                }
+                            </script>
+
+                            <a href="https://lzk821.github.io">
+                                liash
+                            </a>&nbsp;|&nbsp;Powered by
+                            <a href="https://lzk821.github.io" target="_blank">
+                                liash
+                            </a>
+    </div>
+    <script>
+        let back2TopText = document.querySelector('.back-to-top-text')
+        window.addEventListener('scroll', function(e) {
+            let percent = document.scrollingElement.scrollTop / (document.scrollingElement.scrollHeight - document.scrollingElement.clientHeight) * 100;
+            if (back2TopText) {
+                back2TopText.textContent = Math.floor(percent).toString() + '%';
+            }
+        });
+        var titleTime;
+        document.addEventListener("visibilitychange", function() {
+            document.hidden ? (document.title = "\uD83D\uDE25" + OriginTitile, clearTimeout(titleTime)) : (document.title = "\uD83D\uDE1D" + OriginTitile, titleTime = setTimeout(function() {
+                document.title = OriginTitile
+            }, 2E3))
+        });
+        var OriginTitile = document.title;
+        
+        App.hitokoto();
+        
+        
+        App.weather();
+        
+        var themeIcon = document.getElementById("themeIcon");
+        const currentTheme = window.localStorage.getItem('theme');
+        App.clearLog();
+        App.outputlog();
+        var logo = '%cliash\'%cBlog';
+        console.info(
+            logo,
+            'color: #ffffff; background: #000000; padding:5px 10px 5px 10px;font-size:40px;border-radius:12px 0 0 12px;', 'color: #000000; background: #FE9A00; padding:5px 10px;font-size:40px;border-radius:0 12px 12px 0;'
+        );
+        $('img').attr('data-fancybox', 'images');
+    </script>
+</footer>
+    <script>
+        renderMathInElement(document.body, {
+            delimiters: [{
+                left: "$$",
+                right: "$$",
+                display: true
+            }, {
+                left: "$",
+                right: "$",
+                display: false
+            }]
+        });
+    </script>
+
+</html>

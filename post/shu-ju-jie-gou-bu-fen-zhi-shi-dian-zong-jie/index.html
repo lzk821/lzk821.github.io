@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html id="bg">
+
+<head>
+    <meta charset="utf-8" />
+<!--
+    * @Theme Card
+    * @Author admin@itjoker.cn
+    * @Link https://blog.itjoker.cn
+-->
+
+<title>
+    liash
+</title>
+<!--[if lt IE 9]><script src="//cdn.bootcss.com/html5shiv/r29/html5.js"></script><![endif]-->
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel="dns-prefetch" href="https://fastly.jsdelivr.net">
+<meta name="author" content="liash">
+<meta name="description" content="<hr>
+<a href=https://kzurl15.cn/2QvHL>欢迎来到本站，强烈建议将该网站添加书签或者主页</a>
+<hr>">
+<meta name="keywords" content="">
+<meta name="gridea-theme" content="Card">
+<meta name="spider" content="https://nmsl.sbjxw.网址">
+<meta name="UpdateTime" content="1689588225439">
+<script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/jquery@3.4.1.min.js"></script>
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://fastly.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/Card/prism.min.js"></script>
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/css/Card/prism.min.css" />
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.css">
+<script src="https://fastly.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/katex@0.10.0-beta/dist/contrib/auto-render.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
+<!--<script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/js/Card/script.min.js"></script>
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/css/Card/main.min.css" />-->
+<script src="https://lzk821.github.io/media/js/script.min.js"></script>
+<link rel="stylesheet" href="https://lzk821.github.io/media/css/main.min.css" />
+<link rel="stylesheet" href="https://lzk821.github.io/styles/main.css" />
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/css/Card/iconfont.css" />
+<!--link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_410989_wuhl0k5ojvf.css" /-->
+<link href="https://fastly.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/js/love.min.js"></script>
+<script src="https://cdn1.lncld.net/static/js/av-min-1.5.0.js"></script>
+<script>
+    $().ready(
+        function() {
+            if (window.localStorage.getItem('first_visit') != 1) {
+                window.localStorage.setItem('theme', window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                window.localStorage.setItem('first_visit', 1);
+            }
+            var themeIcon = document.getElementById("themeIcon");
+            var currentTheme = window.localStorage.getItem('theme');
+            if (currentTheme == 'dark') {
+                imgList = document.getElementsByTagName('img');
+                for (let i = 0; i < imgList.length; i++) {
+                    imgList[i].style.cssText = mediaCssText;
+                }
+                document.documentElement.style.cssText = cssText;
+                document.getElementsByClassName('card-bg')[0].style.cssText = mediaCssText;
+                themeIcon.classList.remove('Card-moon');
+                themeIcon.classList.add('Card-sun');
+            } else {
+                imgList = document.getElementsByTagName('img');
+                for (let i = 0; i < imgList.length; i++) {
+                    imgList[i].style.cssText = '';
+                }
+                document.documentElement.style.cssText = '';
+                document.getElementsByClassName('card-bg')[0].style.cssText = '';
+                document.getElementsByTagName('html')[0].setAttribute('id', 'bg');
+                themeIcon.classList.remove('Card-sun');
+                themeIcon.classList.add('Card-moon');
+            }
+        }
+    )
+</script>
+
+    <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/hit-kounter-lc-0.3.0.js"></script>
+    
+        
+            <script>
+                (function() {
+                    var bp = document.createElement('script');
+                    var curProtocol = window.location.protocol.split(':')[0];
+                    if (curProtocol === 'https') {
+                        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+                    } else {
+                        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+                    }
+                    var s = document.getElementsByTagName("script")[0];
+                    s.parentNode.insertBefore(bp, s);
+                })();
+            </script>
+            
+                    <style>
+                        .Card-certify {
+                            color: #0091e4 !important;
+                        }
+                        
+                        #foot {
+                            color: #666666;
+                        }
+                        
+                        #menu-item:hover {
+                            border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+                            border-bottom-color: rgba(0, 0, 0, .6);
+                        }
+                        
+                        .gray {
+                            -webkit-filter: grayscale(100%);
+                            /* webkit */
+                            -moz-filter: grayscale(100%);
+                            /*firefox*/
+                            -ms-filter: grayscale(100%);
+                            /*ie9*/
+                            -o-filter: grayscale(100%);
+                            /*opera*/
+                            filter: grayscale(100%);
+                            filter: progid: DXImageTransform.Microsoft.BasicImage(grayscale=1);
+                            filter: gray;
+                            /*ie9- */
+                        }
+                        
+                        .lite-item,
+                        #header {
+                            opacity: 1;
+                        }
+                        
+                        .lite-item {
+                            background-color: #fafafa;
+                        }
+                        
+                        #btnStyle:hover {
+                            transition: all .3s ease;
+                            /*color: #fff;*/
+                            /*background-color: #6b6b6b;*/
+                            background-color: #eaeaea;
+                            /*#0092ee*/
+                            /*linear-gradient( rgb(138, 160, 255) 30%, rgb(90, 140, 250) 70%);*/
+                        }
+                        
+                        #btnStyle {
+                            /*background-color: #efefef;*/
+                            font-size: 14px;
+                            transition: all .3s ease;
+                        }
+                        
+                        .link_a:hover {
+                            margin-top: 10px;
+                            margin-bottom: 10px;
+                            color: #fff;
+                            border-left: 8px solid #6b6b6b;
+                            padding: 5px;
+                            transition: all .3s ease;
+                        }
+                        
+                        html {
+                            width: 100%;
+                            height: 100%;
+                            background-attachment: fixed;
+                            background-repeat: no-repeat;
+                        }
+                    </style>
+</head>
+
+<body>
+    <header id="header">
+
+    <div id="pc-menu">
+        <a id="menu-bar" class="Card Card-menu"></a>
+        <a id="menu-title" href="https://lzk821.github.io">
+            liash
+        </a>
+        <nav id="menu-main" class="menu-main">
+            <ul>
+                <li id="menu-item" class="menu-item">
+                    <div id="tp-weather-widget"></div>
+                </li>
+                
+                    <li id="menu-item" class="menu-item">
+                        <a href="https://lzk821.github.io/tags">
+                            ❦分类查找
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="/archives">
+                            ❦所有内容
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="https://kzurl15.cn/2QvHL">
+                            ❦省钱点这
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="https://lzk821.github.io/post/homepage">
+                            ❦关于本站
+                        </a>
+                    </li>
+                    
+            </ul>
+        </nav>
+        <form id="gridea-search-form" class="searchform" data-update="1689588225439" action="/search/index.html">
+            <i class="Card Card-search"></i>
+            <input id="s" class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+        </form>
+    </div>
+    <div id="mobile-menu">
+        <form id="gridea-search-form" class="mobile-searchform" data-update="1689588225439" action="/search/index.html">
+            <i class="Card Card-search"></i>
+            <input id="s" class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+        </form>
+        <nav class="menu">
+            <ul style="list-style: none;">
+                
+                    <li class="page_item page-item-2">
+                        <a href="https://lzk821.github.io/tags">
+                            ❦分类查找
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="/archives">
+                            ❦所有内容
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="https://kzurl15.cn/2QvHL">
+                            ❦省钱点这
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="https://lzk821.github.io/post/homepage">
+                            ❦关于本站
+                        </a>
+                    </li>
+                    
+            </ul>
+        </nav>
+    </div>
+    <a id="theme-btn" class="theme-btn" onclick="App.changeTheme()"><i id="themeIcon" class="Card Card-moon"></i></a>
+</header>
+        <div id="main">
+            <div id="main-part">
+                <div class="lite-item">
+                    <article class="post post-type real-post">
+                        <header class="post-type-header">
+                            
+                                    <div class="thumbnail-link" style="background-color: transparent;"></div>
+                                    
+                                        <div class="thumbnail-shadow">
+                                            <h1 class="post-title">
+                                                数据结构部分知识点总结
+                                            </h1>
+                                            <div class="post-info">
+                                                <span class="post-category"><i class="Card Card-novel"></i>
+                                        
+                                            <span onclick="javascript:top.location='https://lzk821.github.io/tag/ONEdiIdMS/'">学习</span>
+                                                
+                                            <span onclick="javascript:top.location='https://lzk821.github.io/tag/jQOtpKCN8/'">复习资料</span>
+                                                
+                                                    </span>
+                                                    <span class="post-view">
+                                                    
+                                                        &nbsp;•&nbsp;
+                                                        <span class="post-meta-item-text"><i class="Card Card-view"></i>&nbsp;阅读量&nbsp;</span>
+                                                        <span data-hk-page="current"> - </span>
+                                                        
+                                                            </span>&nbsp;•&nbsp;
+
+                                                            <span class="post-readtime">阅读时间:
+                                            8.3分</span>
+                                                            <span class="post-edit"></span></div>
+                                        </div>
+                                        <div class="post-relative">
+                                            <img alt="liash" src="https://lzk821.github.io/images/avatar.png?v=1689588225439" srcset="https://lzk821.github.io/images/avatar.png?v=1689588225439" class="avatar avatar-100 photo" width="100" height="100">
+                                            <span class="post-type-author"><a href="https://lzk821.github.io" title="由liash发布" rel="author">liash<i class="Card Card-certify"></i></a></span>
+                                            <span class="post-publish"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;2023-04-13</span>
+                                        </div>
+                        </header>
+                        <div class="post-main post-type-main">
+                            <div class="post-content">
+                                <div class="post-content-real">
+                                    <p>逻辑结构的概念数据的逻辑结构是指数据元素之间的逻辑关系描述<br>
+逻辑结构分为线性结构----线性表，栈，队，字符串，数组，广义<br>
+表，非线性结构----树,图</p>
+<p>数据的存储结构（又称物理结构）是逻辑结构在计算机中的存储映像</p>
+<p>算法的特征：有限性，确定性，可行性，输入，输出</p>
+<p>算法设计的要求：正确性，可读性，健壮性，高效率和低存储量</p>
+<p>实现算法过程的步骤：1.找出与求解有关的数据元素之间的关系（建<br>
+立结构关系）2.确定在某一数据对象上所施加的运算3.考虑数据元素<br>
+的存储表示4.选择描述算法的语言5.设计实现求解的算法并用程序设<br>
+计语言加以描述</p>
+<p>带头节点的单链表L中查找值为key节点<br>
+Node * Locate(LinkList L,ElemType key)<br>
+/<em>在带头节点的单链表L中查找节点值等于key的第一个节点<br>
+，若找到则返回该节点的位置P，否则返回Null</em>/<br>
+{Node * p;<br>
+p＝L → next; /<em>从表中第一个节点开始</em>/<br>
+while（p! ＝null）/<em>当前表未查完</em>/<br>
+if（p→date!＝key）<br>
+p＝p→next;<br>
+else break;  /<em>找到节点值为key时退出循环</em>/<br>
+return p;<br>
+}  /<em>Locate</em>/  平均时间复杂度为O（n）</p>
+<p>线性表的特征：<br>
+对 n&gt;0,除第一元素无直接前驱,最后一个元素无直接后继外 , 其余的每<br>
+个数据元素只有一个直接前驱和一个直接后继。 数据元素之间具有一对<br>
+一的关系 。</p>
+<p>线性表的特点 :<br>
+1同一性 线性表由同类数据元素组成, 每一个ai必须属于同一数据类型<br>
+2有穷性 线性表由有限个数据元素组成 , 表⻓度就是表中数据元素的个数<br>
+3有序性 线性表中相邻数据元素之间存在着序偶关系 &lt;ai;ai+1&gt;</p>
+<p>线性表的优缺点:遍历查找比较方便，插入删除很复杂</p>
+<p>线性表的存储结构的种类 :<br>
+顺序存储结构<br>
+特点 : 有储密度大 , 存储空间利用率高 , 按元素序号随机访问<br>
+链式存储结构<br>
+特点 : 存储密度小 、 存储空间利用率低 ; 不可以随机存取 , 只能顺序<br>
+存取;插入和删除操作方便灵活</p>
+<p>双向链表 :</p>
+<p>前驱指针域/数据域/后继指针域prior data next</p>
+<p>概念 : 指的是构成链表的每个结点中设点两个指针域 , 一个指向其直接前趋<br>
+的指针域 Prior,一个指向其直接后继的指针域Next , 这样形成的链表中有两<br>
+个方向不同的链 故称为双向链表</p>
+<p>链式存储的原理在物理存储单元上非连续非顺序的存储结构，用一组任<br>
+意的存储单元来存放线性表中的节点</p>
+<p>带头结点的单链表的判空：head-&gt;next=null</p>
+<p>括号匹配思想：检验算法中可设置一个栈，每读入一个字符，若县左括<br>
+号则直接入栈等待相同匹配的同类右括号若是右括号则与当前栈点的左<br>
+括号同类型，则二者匹配将栈顶的左括号出栈，否则属于不合法情。另<br>
+外如果输入序列已读完，而栈中仍有等待匹配的左括号或者读入了一个<br>
+右括号，而栈中一无等待匹配的同类型组括号均属于不合法情况，当输<br>
+入序列和站同时变空时，说明所有括号完全匹配。</p>
+<p>栈的特征：后进先出（先进后出）</p>
+<p>队列的特征：先进先出</p>
+<p>栈和队列的相同点及区别:<br>
+栈和队列是两种操作受限的线性表</p>
+<p>相同点:1都是线性结构2插入操作都是限定在表尾进行。3都可以通过<br>
+顺序结构和链式结构实现4插入和删除的时间复杂度都是O(1),在空间<br>
+复杂度上两者也一样5多链栈和多链队列的管理模式可以相同</p>
+<p>不同点 :1.删除数据元素的位置不同 , 栈的删除操作在表尾进行，队列<br>
+的删除操作在表头进行2应用场景不同,常⻅栈的应用场景包括括号问题<br>
+的求解,表达式的转换和求值,函数调用和递归实现,深度优先遍历等;常⻅<br>
+的队列的应用场景包括计算机系统中各种资源的管理,消息缓冲器的管理和<br>
+广度优先搜步编历等3顺序栈能够实现多栈空间共享,而顺序队列不能<br>
+字符串的定义：字符串是由零个或多个字符组成的有限序列；子串：串<br>
+中任意连续的字符组成的子序列称为该串的子串，主串：包含子串的串<br>
+称为主串。真子串指不包含自身的子串串结构的特点 : 数据元素都是字<br>
+符值相等，串都悬特定的线性表。</p>
+<p>树的概念：树是n个结点的有限集合T（n&gt;=0）</p>
+<p>树的层次结构：当n=0时称为空树;当n&gt;0时,① 其中必有⼀个称为为<br>
+根(root)的特定结点 ,它没有直接前驱,但有零个或多个直接后继。<br>
+② 其余n-1个结点可以划分成m（m≥0)个互不相交的有限集T1,T2，T3<br>
+,…Tm,其中Ti⼜是⼀棵树,称为根的⼦树。每棵⼦树的根结点有且仅有<br>
+⼀个直接前驱,但有零个或多个直接后继</p>
+<p>叶子节点：度为0的节点，即无后继的节点，也称为终端节点</p>
+<p>树的深度：树中所有结点的层次结构的最大值</p>
+<p>树的性质：1.在二叉树的第i层上至多有2的i-1次方个结点（i&gt;=1）</p>
+<p>2.深度为k的二叉树至多有2的k次方-1个结点（k&gt;=1）<br>
+树的先序遍历操作过程：1.访问根结点 2.按先序遍历左子树 3.按先序<br>
+遍历右子树<br>
+树的中序遍历操作过程：1.按中序遍历左子树 2.访问根结点 3.按中序<br>
+遍历右子树<br>
+树的后序遍历操作过程：1.按后序遍历左子树  2.按后序遍历右子树3.<br>
+访问根结点</p>
+<p>二叉树链表：除根节点外，每个结点只有一个双亲节点，最多有两个孩子，<br>
+可以设每个节点至少包含三个域：数据域，左孩子域和右孩子域，其中左孩子<br>
+域指向该结点的左孩子，右同理，数据域记录该结点的元素值</p>
+<p>n个结点的二叉树链表有：2n-(n-1)=n+1个空指针域，n-1个非空指针域</p>
+<p>哈夫曼树的构成及wpl的计算：哈夫曼树并不唯一，但带权路径长度一<br>
+定相同</p>
+<p>WPL：哈夫曼树中所有非叶子结点的权值之和</p>
+<p>连通无向图是无向图中的一种，其中所有节点都能够通过路径相连，且每条路径<br>
+都是无方向的。连通无向图中的边之间的关系是由图中的节点所决定的。具体来<br>
+说，如果两个节点之间有边相连，那么它们就在连通无向图中是一对相邻节点。<br>
+如果没有边相连，那么这两个节点就是孤立节点，互<br>
+不相连。在连通无向图中，任意一个节点都可以与图中的所有其他节点相连，因此<br>
+连通无向图的边数等于图中所有节点数的平方。</p>
+<p>无向完全图有向完全图边的关系<br>
+无向完全图：对于无向图而言，其边数E的取值范围是0~N（N-1）/2。有N(N-1)/2<br>
+条边，（图中每个顶点和其与N-1个顶点都有边相连）的无向图与无向完全图</p>
+<p>有向完全图：对有向图而言，其边数E的取值范围是0~N（N-1）。有<br>
+N(N-1)/2条边，图中每个顶点和其余N-1个顶点都有弧相连）的有向图。</p>
+<p>度的概念及原理：顶点v的度是指与v相关联的边的数目</p>
+<p>有向图顶点的度：有向图顶点的度是指该顶点所连接的边的条数，也称该顶点的参与度。<br>
+度为 0 的顶点称为无向边顶点，度为 1 的顶点称为单源顶点，度为 2 的顶点称为双源<br>
+顶点，以此类推。核心价值图包含了有向图的大部分度数。</p>
+<p>顶点的度=入度+出度</p>
+<p>折半查找的条件及思想：<br>
+条件：有限序列，或递增或递减<br>
+思想：首先用，要查找的关键字k与中间位置的节点的关键字相比较，这<br>
+个中间节点把线性表分成了两个子表，若比较结果相等，则查找完成，若<br>
+不相等，再根据k与该中间节点关键字的比较大小确定，下一步查找哪个<br>
+子表，这样递归进行下去，直到找到满足条件的节点或者该线性表中没有<br>
+这样的节点</p>
+
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="post-footer">
+                            <div class="post-copyright">
+                                作者:
+                                liash<br>永久链接:
+                                    <a href="https://lzk821.github.io/post/shu-ju-jie-gou-bu-fen-zhi-shi-dian-zong-jie/" title="数据结构部分知识点总结">
+                                        https://lzk821.github.io/post/shu-ju-jie-gou-bu-fen-zhi-shi-dian-zong-jie/
+                                    </a><br> 协议: MIT License
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <style>
+                    .prev:hover {
+                        color: #2d96bd;
+                        text-decoration: none;
+                        text-align: center;
+                        transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+                    }
+                    
+                    .next:hover {
+                        color: #2d96bd;
+                        text-decoration: none;
+                        text-align: center;
+                        transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+                    }
+                </style>
+                <div class="lite-item nearby-article">
+                    
+                        <div class="nearby-article-left" style="padding: 10px;">
+                            <a class="prev" rel="prev" href="https://lzk821.github.io/post/guan-yu-lzk-dai-gua-de-shi-yong-fang-fa-he-jiao-cheng/">
+                                <i class="fa fa-chevron-left"></i>
+                                关于LZK代挂的使用方法和教程
+                            </a>
+                        </div>
+                        
+                            
+                                <div class="nearby-article-right" style="padding: 10px;">
+                                    <a class="next" rel="next" href="https://lzk821.github.io/post/c-yu-yan/">
+                                        C 语言 <i class="fa fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                                
+                </div>
+                <!--Share-->
+                <span style="margin-right:15px">
+    <i class="post-share"></i>
+    <span>&#x5206;&#x4EAB;:</span>
+                <a title="QR 码" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://lzk821.github.io/post/shu-ju-jie-gou-bu-fen-zhi-shi-dian-zong-jie/"><i class="fa fa-qrcode"></i></a>
+                <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://lzk821.github.io/post/shu-ju-jie-gou-bu-fen-zhi-shi-dian-zong-jie/&sharesource=qzone&title=数据结构部分知识点总结&pics=https://lzk821.github.io/images/avatar.png?v=1689588225439&summary="><i class="fa fa-qq"></i></a>
+                <a title="新浪微博" target="_blank" href="https://service.weibo.com/share/share.php?url=https://lzk821.github.io/post/shu-ju-jie-gou-bu-fen-zhi-shi-dian-zong-jie/&sharesource=weibo&title=数据结构部分知识点总结 + " - " + &pic="https://lzk821.github.io/images/avatar.png?v=1689588225439"><i class="fa fa-weibo "></i></a>
+                </span>
+                
+                                            
+                                                <script type="application/javascript" src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>
+<div id="vlaine-comment"></div>
+<script type="application/javascript">
+    new Valine({
+        el: '#vlaine-comment',
+        appId: 'VfLdmb0Zk5czgecxphB6z3NH-gzGzoHsz',
+        appKey: '6xLAwYnIrhTo7vzVPBni5JL7',
+        pageSize: 5,
+        avatar: 'mp',
+        placeholder: '看都看了，不妨评论一下',
+        visitor: false,
+        highlight: false,
+        recordIP: true,
+    })
+</script>
+                                                    
+            </div>
+            <div id="sidebar">
+    <ul>
+        
+            <li class="lite-item">
+                <header class="lite-item-header">
+                    <h3 class="lite-item-title"><i class="Card Card-hitokoto"></i>&nbsp;&#x4E00;&#x8A00;</h3>
+                </header>
+                <div class="textwidget">
+                    <p>
+                        <b id="hitokoto"></b>
+                    </p>
+                </div>
+            </li>
+            
+                <!--
+                <li class="lite-item">
+                    <header class="lite-item-header">
+                        <h3 class="lite-item-title"><i class="Card Card-tags">&#x6807;&#x7B7E;</i></h3>
+                    </header>
+                    <div class="textwidget">
+                        
+                            <a href="" class="tag-cloud-link " style="font-size: 12px;margin: 5px; padding: 2px;">
+                                <i class="fa fa-tags" aria-hidden="true"></i>
+                            </a>
+                            
+                    </div>
+                </li>-->
+                <li class="lite-item">
+                    <header class="lite-item-header">
+                        <h3 class="lite-item-title"><i class="Card Card-tags">&#x6807;&#x7B7E;</i></h3>
+                    </header>
+                    <div class="textwidget">
+                        <div id='tags' style="height: auto;width: 360;"></div>
+                        <script src="https://lzk821.github.io/media/js/svg3dtagcloud.min.js"></script>
+                        <script>
+                            $(document).ready(function() {
+                                var entries = ([
+                                    
+                                     {
+                                        label: '🏷python',
+                                        url: 'https://lzk821.github.io/tag/P5dC4YMfz/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷编程',
+                                        url: 'https://lzk821.github.io/tag/BFZRgdTN2/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷羊毛',
+                                        url: 'https://lzk821.github.io/tag/ZdtPt1Y3x/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷学习',
+                                        url: 'https://lzk821.github.io/tag/ONEdiIdMS/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷复习资料',
+                                        url: 'https://lzk821.github.io/tag/jQOtpKCN8/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷实用网站',
+                                        url: 'https://lzk821.github.io/tag/8eqbyx0y6/',
+                                        target: '_button'
+                                    }
+                                    
+                                    
+                                ]);
+                                var settings = {
+                                    entries: entries, //数据
+                                    width: 300, //宽度
+                                    height: 300, //高度
+                                    radius: '50%',
+                                    radiusMin: 50,
+                                    bgDraw: false, //是否显示背景
+                                    bgColor: '#fff', //背景颜色
+                                    opacityOver: 1.00,
+                                    opacityOut: 0.05,
+                                    opacitySpeed: 6,
+                                    fov: 360,
+                                    speed: 0.3, //旋转的速度
+                                    fontFamily: 'Oswald, Arial, sans-serif',
+                                    fontSize: '18', //默认字体大小
+                                    fontColor: '#666', //默认字体颜色
+                                    fontWeight: 'normal', //bold
+                                    fontStyle: 'normal', //italic 
+                                    fontStretch: 'normal', //wider, narrower, ultra-condensed, extra-condensed, condensed, semi-condensed, semi-expanded, expanded, extra-expanded, ultra-expanded
+                                    fontToUpperCase: true,
+                                    tooltipFontFamily: 'Oswald, Arial, sans-serif',
+                                    tooltipFontSize: '16',
+                                    tooltipFontColor: 'red',
+                                    tooltipFontWeight: 'normal', //bold
+                                    tooltipFontStyle: 'normal', //italic 
+                                    tooltipFontStretch: 'normal', //wider, narrower, ultra-condensed, extra-condensed, condensed, semi-condensed, semi-expanded, expanded, extra-expanded, ultra-expanded
+                                    tooltipFontToUpperCase: false,
+                                    tooltipTextAnchor: 'left',
+                                    tooltipDiffX: 0,
+                                    tooltipDiffY: 5
+
+                                };
+
+                                //var svg3DTagCloud = new SVG3DTagCloud( document.getElementById( 'holder'  ), settings );
+                                $('#tags').svg3DTagCloud(settings);
+                            });
+                        </script>
+                    </div>
+                </li>
+                
+                    <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/APlayer.min.js"></script>
+                    <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+                    <div id="player"></div>
+                    
+                        <li class="lite-item">
+                            <header class="lite-item-header">
+                                <h3 class="lite-item-title">
+                                    &#x1F3B5;&#x97F3;&#x4E50;
+                                </h3>
+                            </header>
+                            <div class="textwidget">
+                                <p>
+                                    <div id="playerbox"></div>
+                                </p>
+                            </div>
+                        </li>
+                        
+                            <script>
+                                function LoadPlayer() {
+                                    var music_array = [];
+                                    
+                                    music_array.push({
+                                        name: '若相惜',
+                                        url: 'http://music.163.com/song/media/outer/url?id=363017.mp3',
+                                        artist: 'kingstar',
+                                        cover: 'http://p1.music.126.net/_RVAT4U3uaOaA5SbjMyElg==/116548232557441.jpg?param=130y130http://p1.music.126.net/_RVAT4U3uaOaA5SbjMyElg==/116548232557441.jpg?param=130y130',
+                                    });
+                                    
+                                    
+                                    const ap = new APlayer({
+                                        container: document.getElementById('playerbox'),
+                                        audio: music_array
+                                    });
+                                    
+                                }
+                                LoadPlayer();
+                            </script>
+                            
+                                
+                                    
+                                        
+                                            <li class="lite-item">
+                                                <header class="lite-item-header">
+                                                    <h3 class="lite-item-title">
+                                                        关于本站
+                                                    </h3>
+                                                </header>
+                                                <div class="textwidget">
+                                                    <div id="textwidget-box" style="width:100%; height:auto;">
+                                                        <a href = "https://kzurl15.cn/2QvHL"><center>首先欢迎你来到本站，强烈建议将该网站添加书签或者主页</center>  <center>我的微信公众号：嗨省点</center><br/> <center>网购，点外卖，买票都可以使用。最主要的是可以防走丢</center> <center>小程序（保存至相册用微信扫码）：</center> <center><img src="https://raw.githubusercontent.com/lzk821/photo/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230210165025.jpg" width="300"/></center><br/><center>如果以上操作你都懒得弄，那就直接点击这句话也是可以的</center> <center>🍕我会在网站上分享一些实用的软件和教程，或者一些学习资料。</center></ a>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            
+                                            <li class="lite-item">
+                                                <header class="lite-item-header">
+                                                    <h3 class="lite-item-title">
+                                                        公告栏
+                                                    </h3>
+                                                </header>
+                                                <div class="textwidget">
+                                                    <div id="textwidget-box" style="width:100%; height:auto;">
+                                                        如果有什么问题请直接留言至《进站必读》，看到后我会回复。</br>搜索功能目前有问题，建议直接点顶部分类查看进行相关信息检索。</br>目前想到的就这么多......</br>如果有急事可以加微信LZKX0808,注明来意。
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            
+                                                
+                                                    <li class="lite-item">
+                                                        <header class="lite-item-header">
+                                                            <h3 class="lite-item-title">&#x1F468;&#x200D;&#x1F4BB;&#x53CB;&#x94FE;</h3>
+                                                        </header>
+                                                        <div class="textwidget">
+                                                            
+                                                                
+                                                                    <p onclick="javascript:top.location='https://5v7x405771.goho.co/'"><span class="link_a"><a href="https://5v7x405771.goho.co/" alt="我的网站 ">我的网站 -我的正式网站，由于没钱购买服务器所以采用了内网穿透，域名无法绑定所以放在友链里</a></span></p>
+
+                                                                    
+                                                                    <p onclick="javascript:top.location=''"><span class="link_a"><a href="" alt=" "> -</a></span></p>
+
+                                                                    
+                                                                        
+                                                        </div>
+                                                    </li>
+    </ul>
+</div>
+        </div>
+
+</body>
+<footer id="foot">
+    <a class="back-to-top" href="#"><i class="Card Card-top" ></i><span class="back-to-top-text">0%</span></a>
+    <div class="copyright">
+        <a href="https://kzurl15.cn/2QvHL" target="_blank">省钱点这里，让你的生活更精彩！</a>
+            
+                    
+
+                        <div style="font-size:12px">
+                            
+                                        已经建站 <b id='build_time'></b>
+                        </div>
+                        <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/time.min.js"></script>
+                        <script>
+                            buildTime = '2023.2.10'
+                            setInterval(show_date_time, 1000, buildTime);
+                        </script>
+                        
+                            <a href="https://lzk821.github.io">
+                                点此返回主页
+                            </a>&nbsp;|&nbsp; &#x7248;&#x6743;&#x6240;&#x6709; &copy;
+                            <script>
+                                var date = new Date();
+                                data2 = new Date(buildTime.replace(/-/g, "/"));
+                                nowYear = date.getFullYear().toString()
+                                buildYear = data2.getFullYear().toString();
+                                if (buildYear == nowYear) {
+                                    document.write('<span class="my-face">' + nowYear + '</span>');
+                                } else {
+                                    document.write(buildYear + '-<span class="my-face">' + nowYear + '</span>');
+                                }
+                            </script>
+
+                            <a href="https://lzk821.github.io">
+                                liash
+                            </a>&nbsp;|&nbsp;Powered by
+                            <a href="https://lzk821.github.io" target="_blank">
+                                liash
+                            </a>
+    </div>
+    <script>
+        let back2TopText = document.querySelector('.back-to-top-text')
+        window.addEventListener('scroll', function(e) {
+            let percent = document.scrollingElement.scrollTop / (document.scrollingElement.scrollHeight - document.scrollingElement.clientHeight) * 100;
+            if (back2TopText) {
+                back2TopText.textContent = Math.floor(percent).toString() + '%';
+            }
+        });
+        var titleTime;
+        document.addEventListener("visibilitychange", function() {
+            document.hidden ? (document.title = "\uD83D\uDE25" + OriginTitile, clearTimeout(titleTime)) : (document.title = "\uD83D\uDE1D" + OriginTitile, titleTime = setTimeout(function() {
+                document.title = OriginTitile
+            }, 2E3))
+        });
+        var OriginTitile = document.title;
+        
+        App.hitokoto();
+        
+        
+        App.weather();
+        
+        var themeIcon = document.getElementById("themeIcon");
+        const currentTheme = window.localStorage.getItem('theme');
+        App.clearLog();
+        App.outputlog();
+        var logo = '%cliash\'%cBlog';
+        console.info(
+            logo,
+            'color: #ffffff; background: #000000; padding:5px 10px 5px 10px;font-size:40px;border-radius:12px 0 0 12px;', 'color: #000000; background: #FE9A00; padding:5px 10px;font-size:40px;border-radius:0 12px 12px 0;'
+        );
+        $('img').attr('data-fancybox', 'images');
+    </script>
+</footer>
+    <script>
+        renderMathInElement(document.body, {
+            delimiters: [{
+                left: "$$",
+                right: "$$",
+                display: true
+            }, {
+                left: "$",
+                right: "$",
+                display: false
+            }]
+        });
+    </script>
+
+</html>
